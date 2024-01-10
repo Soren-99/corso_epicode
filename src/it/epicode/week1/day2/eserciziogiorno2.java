@@ -6,7 +6,7 @@ public class eserciziogiorno2 {
     }
 
     public static boolean stringEvenOdd(String str) {
-        return str.length() % 2 == 0 ? true : false;
+        return str.length() % 2 == 0;
     }
 
     public static boolean annoBisestile(int anno){
